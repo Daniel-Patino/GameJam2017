@@ -1,4 +1,6 @@
-# GameJam2017
+# Global Game Jam 2017
 
-README
-Hello world!
+## Spitphony: A Llama Story
+
+### Global Game Jam Theme: Waves
+
