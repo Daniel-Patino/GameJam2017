@@ -9,5 +9,6 @@ public class StoryMenu : MonoBehaviour
 	public void LoadArea1Scene()
 	{
 		LevelManager.Instance.LoadScene(LevelManager.Stage1SceneName);
-	}
+		LevelManager.Instance.LoadSceneAdditive(LevelManager.MusicalEnvSceneName);
+    }
 }
