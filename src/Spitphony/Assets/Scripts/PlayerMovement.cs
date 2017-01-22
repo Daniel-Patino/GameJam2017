@@ -177,6 +177,11 @@ public class PlayerMovement : MonoBehaviour
             decreaseHealthFallDeath();
         }
 
+		if (healthbar.fillAmount == 0) {
+			LevelManager.Instance.LoadScene ("GameOver");
+		}
+
+
         //		Debug.Log ("Y: "+rigidB.velocity.y);
 
 
