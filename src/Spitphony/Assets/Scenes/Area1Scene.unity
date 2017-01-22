@@ -1492,10 +1492,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1542026146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73e5f1bfb4dd8914d8943756dd3154f3, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b057cd988c0d3b4d9b0c8edb9c41fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar: {fileID: 864396086}
+  healthbar: {fileID: 146249628}
   max_health: 100
   cur_health: 1
   speed: 0.5
