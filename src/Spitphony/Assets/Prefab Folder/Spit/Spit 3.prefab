@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4032935451591076}
   - component: {fileID: 54444210109189094}
-  - component: {fileID: 114971202533782670}
+  - component: {fileID: 114994743881936360}
   m_Layer: 0
   m_Name: Spit 3
   m_TagString: Untagged
@@ -138,7 +138,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8, y: 0.7, z: 0.01}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114971202533782670
+--- !u!114 &114994743881936360
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -146,7 +146,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1214668179846586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df260b7cfc4b7f34ba42edaa88cd3064, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fefc603cbb664d129dea66434416854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -5
