@@ -485,7 +485,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 465369603}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 21.494904, y: 25.621872, z: 0.20000002}
@@ -1005,10 +1005,10 @@ GameObject:
   m_Component:
   - component: {fileID: 886795399}
   - component: {fileID: 886795398}
-  - component: {fileID: 886795397}
   - component: {fileID: 886795396}
   - component: {fileID: 886795394}
   - component: {fileID: 886795395}
+  - component: {fileID: 886795397}
   m_Layer: 0
   m_Name: Crusher
   m_TagString: Untagged
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   intensity: 0.1
-  distance: 5
+  distance: 7
 --- !u!114 &886795395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1071,8 +1071,8 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!65 &886795397
-BoxCollider:
+--- !u!64 &886795397
+MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1081,15 +1081,17 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 7c77c455beaeee649bd54f8df5f3af77, type: 3}
 --- !u!33 &886795398
 MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 886795393}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300000, guid: 7c77c455beaeee649bd54f8df5f3af77, type: 3}
 --- !u!4 &886795399
 Transform:
   m_ObjectHideFlags: 0
@@ -1097,8 +1099,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 886795393}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3, y: 2, z: -3}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: 4.61, y: 0.52, z: -0.95}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
