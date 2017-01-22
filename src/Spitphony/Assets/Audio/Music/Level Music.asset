@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ac0cad48d0b9b4f8cd45c28b26f9de, type: 3}
+  m_Name: Level Music
+  m_EditorClassIdentifier: 
+  _musicMetadata: {fileID: 4900000, guid: 843372a800d30e24482aa9bdf5321732, type: 3}
+  _musicTracks:
+  - {fileID: 8300000, guid: fd0b8ce8f9df2d74c96adaba0cc083f3, type: 3}
+  - {fileID: 8300000, guid: 3d514f5bd31377f4e91e5ca0d80cd59a, type: 3}
+  - {fileID: 8300000, guid: 2edefe4d81d131041908ccecaf8c12c8, type: 3}
