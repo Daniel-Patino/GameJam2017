@@ -2,24 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LLamaAttack : MonoBehaviour {
+public class LlamaAttack : MonoBehaviour {
 
-	public float speed;
+	public float speed = 8;
 	private Rigidbody rb;
-	public GameObject llama;
-	private SpriteRenderer spriteRender;
+	private GameObject llama;
+	private Transform transLlama;
 	private int alt;
 
 	void Start () {
 
-		spriteRender = llama.GetComponent<SpriteRenderer>();
+		llama = GameObject.Find ("Llama");
+		transLlama = llama.GetComponent<Transform>();
 		rb = GetComponent<Rigidbody>();
-		if (spriteRender.flipX) {
+		Debug.Log ("turn: " + transLlama.localScale.x);
+		if (transLlama.localScale.x > 0) {
 			alt = 1;
+			transform.position = new Vector3(transLlama.position.x + 4, transLlama.position.y, transLlama.position.z);
 		} else {
 			alt = -1;
+			transform.position = new Vector3(transLlama.position.x - 6, transLlama.position.y, transLlama.position.z);
 		}
-
 		rb.velocity = transform.right * alt * speed;
 	} 
 }

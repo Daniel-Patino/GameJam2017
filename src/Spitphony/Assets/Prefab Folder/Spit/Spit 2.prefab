@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4438650999126216}
   - component: {fileID: 54740199231224794}
   - component: {fileID: 114328684357081648}
-  - component: {fileID: 114687909485257198}
   m_Layer: 0
   m_Name: Spit 2
   m_TagString: Untagged
@@ -54,7 +53,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1978937326398394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4438650999126216}
@@ -67,7 +66,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1535894264813972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 1, z: -3}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4228058106845716}
@@ -150,15 +149,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fefc603cbb664d129dea66434416854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114687909485257198
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1535894264813972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df260b7cfc4b7f34ba42edaa88cd3064, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: -5
+  speed: 8
