@@ -365,7 +365,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _musicBundles:
-  - {fileID: 11400000, guid: 593c8ea487f771940b51a974df6947a7, type: 2}
+  - {fileID: 11400000, guid: fa80e0b4352ea15438344b85ab70d056, type: 2}
+  - {fileID: 11400000, guid: e9d7b2b835181f84a9c1d558940ac19d, type: 2}
   _baseTrack: {fileID: 1577508881}
   _harmonyTrack: {fileID: 1577508880}
   _melodyTrack: {fileID: 1577508878}

@@ -140,8 +140,27 @@ public class MusicSystem : MonoBehaviour
             var bps = timeSection.BPM / 60f;
             _currentBeatDelay = 1f / bps;
 
-            _baseTrack.clip = _musicBundles[_currentMusicBundle].Music[0];
-            _baseTrack.Play();
+            if (_baseTrack != null && _musicBundles[_currentMusicBundle].Music[0] != null)
+            {
+                _baseTrack.clip = _musicBundles[_currentMusicBundle].Music[0];
+                _baseTrack.loop = true;
+                _baseTrack.Play();
+            }
+
+            if (_harmonyTrack != null && _musicBundles[_currentMusicBundle].Music[1] != null)
+            {
+                _harmonyTrack.clip = _musicBundles[_currentMusicBundle].Music[1];
+                _harmonyTrack.loop = true;
+                _harmonyTrack.Play();
+            }
+
+            if (_melodyTrack != null && _musicBundles[_currentMusicBundle].Music[2] != null)
+            {
+                _melodyTrack.clip = _musicBundles[_currentMusicBundle].Music[2];
+                _melodyTrack.loop = true;
+                _melodyTrack.Play();
+            }
+
             StartCoroutine(HandleBeats());
         }
     }

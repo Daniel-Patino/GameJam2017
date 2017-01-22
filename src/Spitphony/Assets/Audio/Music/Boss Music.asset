@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ac0cad48d0b9b4f8cd45c28b26f9de, type: 3}
+  m_Name: Boss Music
+  m_EditorClassIdentifier: 
+  _musicMetadata: {fileID: 4900000, guid: 7c8036ed30e4e914c86b6f2b2b848276, type: 3}
+  _musicTracks:
+  - {fileID: 8300000, guid: 751271c8158dddb43ab785c99645014c, type: 3}
+  - {fileID: 8300000, guid: 75dc6c2e80fa6e5468875aa5ef0730ec, type: 3}
+  - {fileID: 8300000, guid: a8a15a102654d5f4484c7d74a0bd5cf6, type: 3}
