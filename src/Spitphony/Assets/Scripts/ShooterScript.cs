@@ -19,7 +19,7 @@ public class ShooterScript : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > nextFire)
+        if (Input.GetButton("Jump") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
             GameObject shots = Instantiate(lazerBeam, showSpawn.position, showSpawn.rotation) as GameObject;
