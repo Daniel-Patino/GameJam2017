@@ -15,7 +15,9 @@ public class MusicalAnimation : MonoBehaviour
 
     private void Awake()
     {
-        if (_armature != null && _armature.animation.animations.Count > 0)
+        if (_armature != null && 
+            _armature.animation != null && 
+            _armature.animation.animations.Count > 0)
         {
             _currentAnimIndex = 0;
             _armature.animation.Stop();
@@ -34,7 +36,7 @@ public class MusicalAnimation : MonoBehaviour
 
     private void OnHandleBeat(object sender, EventArgs args)
     {
-        if (_armature != null && _armature.animation.animations.Count > 0)
+        if (_armature != null && _currentAnimIndex >= 0 && _armature.animation.animations.Count > 0)
         {
             var animName = _armature.animation.animationNames[_currentAnimIndex++];
             _armature.animation.Play(animName, 1);
