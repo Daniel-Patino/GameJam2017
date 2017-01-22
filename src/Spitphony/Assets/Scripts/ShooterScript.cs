@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ShooterScript : MonoBehaviour {
 
-    public GameObject lazerBeam;
+    public GameObject[] lazerBeam;
     public Transform showSpawn;
 
     public float fireRate = 0.5f;
@@ -22,7 +22,7 @@ public class ShooterScript : MonoBehaviour {
         if (Input.GetButton("Jump") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
-            GameObject shots = Instantiate(lazerBeam, showSpawn.position, showSpawn.rotation) as GameObject;
+            GameObject shots = Instantiate(lazerBeam[Random.Range(0, lazerBeam.Length)], showSpawn.position, showSpawn.rotation) as GameObject;
         }
     }
 }
