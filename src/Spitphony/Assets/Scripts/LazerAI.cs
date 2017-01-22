@@ -8,9 +8,7 @@ public class LazerAI : MonoBehaviour {
     public Transform showSpawn;
 
     public float fireRate = 0.5f;
-
     private float nextFire = 0.0f;
-    
 
 	// Use this for initialization
 	void Start () {
@@ -24,5 +22,5 @@ public class LazerAI : MonoBehaviour {
             nextFire = Time.time + fireRate;
             GameObject shots = Instantiate(lazerBeam, showSpawn.position, showSpawn.rotation) as GameObject;
         }
-	}
+    }
 }
