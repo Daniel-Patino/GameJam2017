@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _musicMetadata: {fileID: 4900000, guid: 843372a800d30e24482aa9bdf5321732, type: 3}
   _musicTracks:
-  - {fileID: 8300000, guid: ea6fb964ec4d7cb47ba7413b440d84cb, type: 3}
-  - {fileID: 8300000, guid: 5ee19dc8073a0044686b2a7b771f2284, type: 3}
-  - {fileID: 8300000, guid: 3f697dbf993b9b447a8a0762b85d34ec, type: 3}
+  - {fileID: 8300000, guid: fd0b8ce8f9df2d74c96adaba0cc083f3, type: 3}
+  - {fileID: 8300000, guid: 3d514f5bd31377f4e91e5ca0d80cd59a, type: 3}
+  - {fileID: 8300000, guid: 2edefe4d81d131041908ccecaf8c12c8, type: 3}
