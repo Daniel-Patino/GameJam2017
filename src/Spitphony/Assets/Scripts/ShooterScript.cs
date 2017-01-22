@@ -8,13 +8,11 @@ public class ShooterScript : MonoBehaviour {
     public Transform showSpawn;
 
     public float fireRate = 0.5f;
+    public float moveSpeed = 5.0f;
+
     private float nextFire = 0.0f;
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
+    private Vector3 axis;
+    private Vector3 pos;
 
     // Update is called once per frame
     void Update()
