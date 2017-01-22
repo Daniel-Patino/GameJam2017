@@ -1051,12 +1051,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1542026146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b057cd988c0d3b4d9b0c8edb9c41fa9, type: 3}
+  m_Script: {fileID: 11500000, guid: d09d47e4a058452438586036c2bdaf53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 2103131786}
   max_health: 100
-  cur_health: 0
+  cur_health: 1
   speed: 0.5
   jumpDist: 450
   walkDist: 25
@@ -1687,7 +1687,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 0
   m_FillMethod: 0
-  m_FillAmount: 0.718
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!222 &2103131787
