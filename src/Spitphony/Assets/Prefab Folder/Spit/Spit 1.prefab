@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 4470055244259726}
   - component: {fileID: 54205183115453986}
   - component: {fileID: 114389975419138568}
+  - component: {fileID: 114656162504106836}
   m_Layer: 0
   m_Name: Spit 1
   m_TagString: Untagged
@@ -149,3 +150,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fefc603cbb664d129dea66434416854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114656162504106836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1998879489727888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df260b7cfc4b7f34ba42edaa88cd3064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: -5
