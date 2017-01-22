@@ -26,7 +26,6 @@ public class UpAndDown : MonoBehaviour {
         if(trans.position.y < startingVert + distance && movingUp)
         {
             trans.Translate(0.0f, +intensity, 0.0f);
-            Debug.Log(trans.position.y);
             if (trans.position.y >= startingVert + distance)
             {
                 movingUp = false;
