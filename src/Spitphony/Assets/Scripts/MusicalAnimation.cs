@@ -13,12 +13,11 @@ public class MusicalAnimation : MonoBehaviour
 
     private int _currentAnimIndex = -1;
 
-    private void Start()
+    private void Awake()
     {
         if (_armature != null && _armature.animation.animations.Count > 0)
         {
             _currentAnimIndex = 0;
-
             _armature.animation.Stop();
         }
     }

@@ -54,9 +54,15 @@ public class LevelManager : MonoBehaviour
     public const string MainMenuSceneName = "MenuScene";
     public const string StorySceneName = "BackstoryScene";
     public const string Stage1SceneName = "Area1Scene";
+    public const string MusicalEnvSceneName = "MusicScene";
 
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadSceneAdditive(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName, LoadSceneMode.Additive);
     }
 }
