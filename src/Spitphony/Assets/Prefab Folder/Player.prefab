@@ -225,10 +225,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1522115089420610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d09d47e4a058452438586036c2bdaf53, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b057cd988c0d3b4d9b0c8edb9c41fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthbar: {fileID: 114167991113682354}
+  healthbar: {fileID: 0}
   max_health: 100
   cur_health: 1
   speed: 0.5
@@ -300,10 +300,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9900bc5059d743498b03c427366d6b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lazerBeam: {fileID: 1998879489727888, guid: 00dc534198095f74e9f1b03f41e13c3f, type: 2}
+  lazerBeam:
+  - {fileID: 1998879489727888, guid: 00dc534198095f74e9f1b03f41e13c3f, type: 2}
+  - {fileID: 1535894264813972, guid: 875bbc58ace07a941a806285cad37ef3, type: 2}
+  - {fileID: 1214668179846586, guid: 42b0acb754058bb4cbfa0ea4012b91e6, type: 2}
   showSpawn: {fileID: 4797537839161142}
-  llama: {fileID: 1522115089420610}
   fireRate: 0.5
+  moveSpeed: 5
 --- !u!114 &114488699368638336
 MonoBehaviour:
   m_ObjectHideFlags: 1
